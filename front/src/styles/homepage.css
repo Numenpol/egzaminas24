@@ -1,0 +1,27 @@
+.homeHeaderPhoto{
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.homeHeaderText{
+    text-align: center;
+}
+
+.createServiceButtonHome{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #C34F5A;
+    font-weight: 700;
+}
+
+.createServiceButtonHome:hover{
+    cursor: pointer;
+    background-color: rgb(243, 125, 145)
+}
+
+.createServiceButtonHomePosition{
+    text-align: center;
+}

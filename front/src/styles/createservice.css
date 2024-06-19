@@ -1,0 +1,59 @@
+.modal-content{
+    --bs-modal-bg: #541412;
+ }
+ 
+ .serviceNameInput input, .categoryInput select, .dateInput input, .priceInput input{
+     border: none;
+     background-color: #F8D4BA;
+     margin-left: 10px;
+     border-radius: 5px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     width: 300px;
+ }
+ 
+ .serviceNameInput, .categoryInput, .dateInput, .priceInput{
+     text-align: right;
+     margin-right: 80px;  
+     color: rgb(180, 180, 180); 
+     margin-top: 15px;
+ }
+ 
+ .serviceNameErrorInput, .categoryErrorInput, .dateErrorInput, .priceErrorInput{
+     text-align: center;
+     margin-top: 10px;
+     color: rgb(148, 0, 0);
+     font-weight: 700;
+ }
+.priceErrorInput{
+    margin-bottom: 10px;
+}
+
+.createServiceCreateButton, .createServiceCloseButton{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #C34F5A;
+    font-weight: 700;
+}
+
+.createServiceCreateButton:hover, .createServiceCloseButton:hover{
+    background-color: rgb(243, 125, 145)
+}
+
+.createServiceCloseButton{
+    margin-left: 10px;
+}
+
+.createServiceCreateButton{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

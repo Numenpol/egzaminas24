@@ -1,0 +1,16 @@
+.servicePositions{
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto; 
+    gap: 20px; 
+}
+
+.servicePositions::-webkit-scrollbar {
+    display: none;
+}
+
+.servicePositions > * {
+    flex: 0 0 auto;
+}

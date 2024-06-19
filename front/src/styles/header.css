@@ -1,0 +1,47 @@
+.header{
+    overflow: hidden;
+    background-color:#541412;
+}
+
+.homeText{
+    display: inline-flex;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.loginText, .registerText, .logoutText{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.registerText, .loginText, .homeText, .logoutText, .registeredServicesText{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #C34F5A;
+    font-weight: 700;
+}
+
+.registerText:hover, .loginText:hover, .homeText:hover, .logoutText:hover, .registeredServicesText:hover{
+    cursor: pointer;
+    background-color: rgb(243, 125, 145)
+}
+
+.userEmail{
+    color: #F8D4BA;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.userRole{
+    margin-top: 5px;
+    text-align: center;
+    color: #e0ab86;
+}
+
+.registeredServicesText{
+    display: inline-flex;
+    margin-left: 25px;
+}

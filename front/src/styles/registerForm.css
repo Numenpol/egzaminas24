@@ -1,0 +1,76 @@
+.registerForm{
+    background-color:#C34F5A;
+    border-radius: 5px;
+    width: 370px;
+    margin-top: 400px;
+    margin-right: 150px;    
+    float: right;
+    position: relative;
+    z-index: 1;
+}
+
+.inputNameRegister, .inputEmailRegister, .inputPasswordRegister, .inputConPasswordRegister{
+    text-align: right;
+    margin-right: 40px; 
+    color: azure;   
+}
+
+.inputEmailRegister, .inputPasswordRegister, .inputConPasswordRegister{
+    margin-top: 15px;
+}
+
+.inputNameRegister{
+    margin-top: 25px;
+}
+
+.inputNameRegister input, .inputEmailRegister input, .inputPasswordRegister input, .inputConPasswordRegister input{
+    border: none;
+    background-color: #F8D4BA;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nameRegisterError, .emailRegisterError, .passwordRegisterError, .conPasswordRegisterError{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(148, 0, 0);
+    font-weight: 700;
+}
+
+.submitButtonRegister{
+    text-align: center;
+}
+
+.submitRegister {
+    border: none;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #D69F3A;
+    color: white;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.submitRegister:hover {
+    cursor: pointer;
+    background-color: #daad59;
+}
+
+.backgroundRegister{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8D4BA; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
