@@ -50,7 +50,7 @@ function Service({service}) {
         <p>{price}€</p>
         <p>★{rating}</p>
         <div>
-        <button className="registerForServiceButton" id="registerForServiceButton" onClick={() => registerServiceHandler(_id)}>Register</button>   
+        {!user ? "" : <button className="registerForServiceButton" id="registerForServiceButton" onClick={() => registerServiceHandler(_id)}>Register</button>}
         </div>
         </div>
         {userRole == "admin" ? 

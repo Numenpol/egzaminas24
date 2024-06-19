@@ -22,7 +22,7 @@ export const StateProvider = ({ children }) => {
 
       const fetchRegisteredServices = async (id) => {
         try {
-          const { data: {services}} = await getAllRegisteredServices(id);
+          const { data: {services}} = await getAllRegisteredServices(id);       
           setRegisteredServices(services);
         } catch (error) {
           setError(error.message);
@@ -30,8 +30,11 @@ export const StateProvider = ({ children }) => {
       }
 
     useEffect(() => {
+      if(user){
       fetchServices();
       fetchRegisteredServices(user._id);
+      } else
+      fetchServices();
     }, [update]);
 
     return (
